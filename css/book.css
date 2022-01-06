@@ -1,0 +1,32 @@
+form {
+    border: solid #f2f2f2 2px;
+    padding: 2%;
+    box-shadow: 5px 5px #dddddd;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -ms-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+/*Dòng thông báo*/
+
+.tb {
+    color: red;
+    padding-left: 2%;
+}
+
+#tbsotien {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: red;
+}
+
+#datsan {
+    margin: 2% 36% 2% 36%;
+    width: 20%;
+    padding: 1%;
+    font-size: 1rem;
+    color: #ffffff;
+    background: #548e31;
+}

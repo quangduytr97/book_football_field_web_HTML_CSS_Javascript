@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="vi-VN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <!--CSS tự thiết kế-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/book.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Đặt sân</title>
+</head>
+
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo trang"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="about.html">Giới thiệu</a></li>
+                        <li class="dropdown">
+                            <a href="#timsan" class="dropdown-toggle" data-toggle="dropdown">Tìm sân <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="details-1.html">Sân bóng nhân tạo Trung Hòa</a></li>
+                                <li><a href="details-2.html">Sân bóng nhân tạo Trưng Vương</a></li>
+                                <li><a href="details-3.html">Sân bóng nhân tạo Chuyên Việt</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Banner -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img id="banner1" src="images/banner1.jpg" alt="banner trang">
+                    <div class="carousel-caption">
+                        <h1>Thuê sân bóng</h1>
+                        <p>Thuê sân bóng là ứng dụng kết nối chủ sân với những đội bóng.<br> Ứng dụng cung cấp các tiện ích thông minh giúp các đội bóng tìm được sân phù hợp nhất, đặt sân một cách hiệu quả nhất.<br> Hệ thống quản lý sân, lịch biểu thông
+                            minh giảm thiểu tối đa thời gian chi phí, tăng doanh thu cho chủ sân.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img id="banner2" src="images/banner2.jpg" alt="banner trang">
+                    <div class="carousel-caption">
+                        <h1>Thuê sân bóng</h1>
+                        <p>Thuê sân bóng là ứng dụng kết nối chủ sân với những đội bóng.<br> Ứng dụng cung cấp các tiện ích thông minh giúp các đội bóng tìm được sân phù hợp nhất, đặt sân một cách hiệu quả nhất.<br> Hệ thống quản lý sân, lịch biểu thông
+                            minh giảm thiểu tối đa thời gian chi phí, tăng doanh thu cho chủ sân.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img id="banner3" src="images/banner3.jpg" alt="banner trang">
+                    <div class="carousel-caption">
+                        <h1>Thuê sân bóng</h1>
+                        <p>Thuê sân bóng là ứng dụng kết nối chủ sân với những đội bóng.<br> Ứng dụng cung cấp các tiện ích thông minh giúp các đội bóng tìm được sân phù hợp nhất, đặt sân một cách hiệu quả nhất.<br> Hệ thống quản lý sân, lịch biểu thông
+                            minh giảm thiểu tối đa thời gian chi phí, tăng doanh thu cho chủ sân.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </header>
+    <main id="main">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-10 col-sm-push-1 col-md-8 col-md-push-2">
+                    <form class="form-horizontal">
+                        <h2>Đặt sân</h2>
+                        <div class="form-group">
+                            <label class="col-sm-2">Tên sân</label>
+                            <div class="col-sm-10">Sân bóng nhân tạo Trưng Vương</div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2">Địa chỉ</label>
+                            <div class="col-sm-10">403 Trưng Nữ Cương, Hòa Cường Nam, Hải Châu</div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2">Liên hệ</label>
+                            <div class="col-sm-10">0905896321-Anh Quốc</div>
+                        </div>
+                        <!--Tên-->
+                        <div class="form-group">
+                            <label class="col-sm-2" for="ten">Tên người đặt</label>
+                            <div class="col-sm-10">
+                                <input type="text" id="ten" class="form-control" name="ten" onchange="tinhtien()">
+                            </div>
+                            <p id="tbten" class="tb col-sm-10 col-sm-offset-2"></p>
+                        </div>
+                        <!--SĐT-->
+                        <div class="form-group">
+                            <label class="col-sm-2" for="sdt">Số điện thoại</label>
+                            <div class="col-sm-10">
+                                <input type="tel" id="sdt" class="form-control" name="sdt" onchange="tinhtien()">
+                            </div>
+                            <p id="tbsdt" class="tb col-sm-10 col-sm-offset-2"></p>
+                        </div>
+                        <!--Khung gio-->
+                        <div class="form-group">
+                            <label class="col-sm-2" for="khunggio">Đặt khung giờ</label>
+                            <div class="col-sm-10">
+                                <select name="khunggio" id="khunggio" class="form-control" onchange="tinhtien()">
+                                    <option value="macdinh">--- Chọn khung giờ ---</option>
+                                    <option value=300000>6:00 - 16:00 (300k/h)-sân 7</option>
+                                    <option value=650000>16:00 - 20:30 (650k/h)-sân 7</option>
+                                    <option value=400000>20:30 - 23:00 (400k/h)-sân 7</option>
+                                    <option value=200000>6:00 - 16:00 (200k/h)-sân 5</option>
+                                    <option value=450000>16:00 - 20:30 (450k/h)-sân 5</option>
+                                    <option value=300000>20:30 - 23:00 (300k/h)-sân 5</option>
+                                </select>
+                            </div>
+                            <p id="tbkhunggio" class="tb col-sm-10 col-sm-offset-2"></p>
+                        </div>
+                        <!--Số giờ-->
+                        <div class="form-group">
+                            <label class="col-sm-2" for="sogio">Số giờ</label>
+                            <div class="col-sm-10">
+                                <input type="text" id="sogio" class="form-control" name="sogio" onchange="tinhtien()">
+                            </div>
+                            <p id="tbsogio" class="tb col-sm-10 col-sm-offset-2"></p>
+                        </div>
+                        <!--Số người-->
+                        <div class="form-group">
+                            <label class="col-sm-2" for="songuoi">Số nguời chơi</label>
+                            <div class="col-sm-10">
+                                <input type="number" id="songuoi" class="form-control" name="songuoi" min="1" onchange="tinhtien()">
+                            </div>
+                            <p id="tbsonguoi" class="tb col-sm-10 col-sm-offset-2"></p>
+                        </div>
+                        <!--Số đội-->
+                        <div class="form-group">
+                            <label class="col-sm-2" for="sodoi">Số đội chơi</label>
+                            <div class="col-sm-10">
+                                <input type="text" id="sodoi" class="form-control" name="sodoi" value="2" onchange="tinhtien()">
+                            </div>
+                            <p id="tbsodoi" class="tb tb col-sm-10 col-sm-offset-2"></p>
+                        </div>
+                        <!--Đặt định kỳ-->
+                        <div class="form-group">
+                            <label class="col-sm-2">Đặt định kỳ</label>
+                            <div class="col-sm-10">
+                                <div class="radio">
+                                    <label><input type="radio" id="dinhky1" name="dinhky" value="Không">Không</label>
+                                </div>
+                                <div class="radio">
+                                    <label><input type="radio" id="dinhky2" name="dinhky" value="Hàng tuần" checked>Hàng tuần</label>
+                                </div>
+                                <div class="radio">
+                                    <label><input type="radio" id="dinhky3" name="dinhky" value="Hàng tháng">Hàng tháng</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Dịch vụ thêm-->
+                        <div class="form-group">
+                            <label class="col-sm-2">Dịch vụ thêm</label>
+                            <div class="col-sm-10">
+                                <div class="checkbox">
+                                    <label><input type="checkbox" id="dichvu1" name="dichvu1" value="Nước uống miễn phí">Nước uống miễn phí</label>
+                                </div>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" id="dichvu2" name="dichvu2" value="300000" onchange="tinhtien()">Đồng phục thi đấu (300k/đội)</label>
+                                </div>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" id="dichvu3" name="dichvu3" value="200000" onchange="tinhtien()">Thuê trọng tài (200k/h)</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Tổng tiền-->
+                        <div class="form-group">
+                            <label class="col-sm-2">Tổng tiền</label>
+                            <p id="tbsotien" class="col-sm-10">Hãy lựa chọn thông tin đặt sân</p>
+                        </div>
+                        <input type="submit" id="datsan" value="Đặt sân" onclick="return nopmau()">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <section>
+                        <h2>THUÊ SÂN BÓNG</h2>
+                        <ul>
+                            <li>Liên hệ: <a href="mailto:thuesanbong@gmail.com">thuesanbong@gmail.com</a></li>
+                            <li>Facebook: <a href="https://www.facebook.com/quangduytr/">Thuê sân bóng</a></li>
+                            <li>Zalo: <a href="tel:0912345678">0912345678</a></li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <section>
+                        <h2>THÔNG TIN</h2>
+                        <ul>
+                            <li><a href="index.html">Trang chủ</a></li>
+                            <li><a href="about.html">Giới thiệu</a></li>
+                            <li><a href="#main">Tìm sân</a></li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script src="js/book.js"></script>
+</body>
+
+</html>

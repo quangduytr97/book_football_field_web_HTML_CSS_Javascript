@@ -1,0 +1,210 @@
+/*Khởi tạo trang*/
+
+html {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    background-color: #f9f9f9;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+h6 {
+    font-size: 1.1rem;
+}
+
+
+/*1. Header*/
+
+header {
+    position: relative;
+}
+
+
+/*1.1. Navbar*/
+
+.navbar {
+    margin-bottom: 0;
+}
+
+
+/* 1.1.1. logo và nút bấm */
+
+.navbar-header {
+    padding-left: 10%;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+header img:first-child {
+    width: 50px;
+}
+
+.icon-bar {
+    background-color: black;
+}
+
+
+/* 1.1.2. Nav */
+
+.navbar-nav {
+    width: 80%;
+}
+
+.navbar-nav>li {
+    width: 25%;
+}
+
+.navbar-nav>li>a {
+    text-align: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.dropdown-menu {
+    padding: 0;
+    width: 200%;
+}
+
+.dropdown-menu>li>a {
+    padding: 0 5%;
+    line-height: 50px;
+}
+
+
+/*1.2. Baner và tiêu đề*/
+
+#banner1,
+#banner2,
+#banner3 {
+    width: 100%;
+    height: 45vh;
+}
+
+.carousel-indicators {
+    margin-bottom: 0;
+}
+
+.carousel-caption {
+    text-align: left;
+    color: #ffffff;
+}
+
+
+/*2.Main*/
+
+main {
+    padding: 2%;
+}
+
+
+/*2.1 Article*/
+
+article {
+    border: solid #f2f2f2 2px;
+    padding: 2%;
+    box-shadow: 5px 5px #dddddd;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -ms-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+article:nth-child(2),
+article:nth-child(3) {
+    margin-top: 2%;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+article img {
+    display: inline-block;
+    width: 50%;
+}
+
+article ul {
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+article li {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+article a {
+    margin-right: 5%;
+}
+
+
+/*2.2 Aside*/
+
+aside {
+    padding: 2%;
+    border: solid #f2f2f2 2px;
+    box-shadow: 5px 5px #dddddd;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -ms-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+aside img {
+    display: inline-block;
+    width: 100%;
+}
+
+
+/*3.Footer*/
+
+footer {
+    color: #ffffff;
+    background: #797676;
+    padding: 2%;
+}
+
+footer ul {
+    list-style-type: none;
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+footer ul li {
+    margin-bottom: 3%;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

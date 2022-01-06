@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="vi-VN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <!--CSS tự thiết kế-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Giới thiệu</title>
+</head>
+
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo trang"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="about.html">Giới thiệu</a></li>
+                        <li class="dropdown">
+                            <a href="#timsan" class="dropdown-toggle" data-toggle="dropdown">Tìm sân <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="details-1.html">Sân bóng nhân tạo Trung Hòa</a></li>
+                                <li><a href="details-2.html">Sân bóng nhân tạo Trưng Vương</a></li>
+                                <li><a href="details-3.html">Sân bóng nhân tạo Chuyên Việt</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Banner -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img id="banner1" src="images/banner1.jpg" alt="banner trang">
+                    <div class="carousel-caption">
+                        <h1>Thuê sân bóng</h1>
+                        <p>Thuê sân bóng là ứng dụng kết nối chủ sân với những đội bóng.<br> Ứng dụng cung cấp các tiện ích thông minh giúp các đội bóng tìm được sân phù hợp nhất, đặt sân một cách hiệu quả nhất.<br> Hệ thống quản lý sân, lịch biểu thông
+                            minh giảm thiểu tối đa thời gian chi phí, tăng doanh thu cho chủ sân.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img id="banner2" src="images/banner2.jpg" alt="banner trang">
+                    <div class="carousel-caption">
+                        <h1>Thuê sân bóng</h1>
+                        <p>Thuê sân bóng là ứng dụng kết nối chủ sân với những đội bóng.<br> Ứng dụng cung cấp các tiện ích thông minh giúp các đội bóng tìm được sân phù hợp nhất, đặt sân một cách hiệu quả nhất.<br> Hệ thống quản lý sân, lịch biểu thông
+                            minh giảm thiểu tối đa thời gian chi phí, tăng doanh thu cho chủ sân.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img id="banner3" src="images/banner3.jpg" alt="banner trang">
+                    <div class="carousel-caption">
+                        <h1>Thuê sân bóng</h1>
+                        <p>Thuê sân bóng là ứng dụng kết nối chủ sân với những đội bóng.<br> Ứng dụng cung cấp các tiện ích thông minh giúp các đội bóng tìm được sân phù hợp nhất, đặt sân một cách hiệu quả nhất.<br> Hệ thống quản lý sân, lịch biểu thông
+                            minh giảm thiểu tối đa thời gian chi phí, tăng doanh thu cho chủ sân.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </header>
+    <main id="main">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-10 col-sm-push-1 col-md-8 col-md-push-2">
+                    <article>
+                        <h2>Giới thiệu về ứng dụng</h2>
+                        <img src="images/image1.jpg" alt="Tổng quan về sân bóng" style="width:50%">
+                        <p>Tại các đô thị hiện nay, không gian dành cho việc tập luyện thể thao ngày càng ít. Trong khi đó, nhu cầu sử dụng lại theo chiều hướng tăng. Các đội bóng sinh viên, câu lạc bộ bóng đá tự tổ chức luôn có nhu cầu thuê sân bóng. Việc
+                            tìm sân bóng hiện nay chủ yếu qua quen biết, hoặc đến tận nơi để trao đổi.</p>
+                        <p>Xuất phát từ thực tế đó, ứng dụng Thuê sân bóng ra đời, đáp ứng các yêu cầu sau:</p>
+                        <ul>
+                            <li>Người chủ sân có màn hình để đăng tải thông tin về sân bóng như: loại sân (sân cỏ tự nhiên, cỏ nhân tạo,...), địa điểm, thông số của sân, các tiện ích đi kèm (như: nước uống, quần áo thi đấu, trọng tài,...)</li>
+                            <li>Người chủ sân bóng điền thông tin về khung giờ còn trống, có thể thuê, giá thuê,...</li>
+                            <li>Người thuê sân có thể tìm duyệt các sân còn trống theo khung giờ - Người thuê sân có thể đặt thuê sân</li>
+                            <li>Website hiển thị tốt trên màn hình Desktop và Mobile</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <section>
+                        <h2>THUÊ SÂN BÓNG</h2>
+                        <ul>
+                            <li>Liên hệ: <a href="mailto:thuesanbong@gmail.com">thuesanbong@gmail.com</a></li>
+                            <li>Facebook: <a href="https://www.facebook.com/quangduytr/">Thuê sân bóng</a></li>
+                            <li>Zalo: <a href="tel:0912345678">0912345678</a></li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <section>
+                        <h2>THÔNG TIN</h2>
+                        <ul>
+                            <li><a href="index.html">Trang chủ</a></li>
+                            <li><a href="about.html">Giới thiệu</a></li>
+                            <li><a href="#main">Tìm sân</a></li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+</body>
+
+</html>
